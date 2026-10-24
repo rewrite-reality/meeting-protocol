@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Данные и модели: в репозиторий не попадают
+models/
+data/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.onnx
+*.pt
+*.bin
+*.safetensors
+
+# Артефакты сборки и редакторов
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.xlsx
+.vscode/
+.idea/
